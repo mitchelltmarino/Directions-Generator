@@ -82,4 +82,5 @@ Explains how to use the program as intended, and also goes into moderate depth e
 	* Unfortunately, since my application deals with only roads that are defined as roadways that vehicles can drive on by OSM, little anomalies like the one described above can be an obstacle for the proper or successful calculation of shortest path.
 
 **THANK YOU!**
+
 If you have gotten this far, thank you very much for reading as you have shown genuine interest in my project. Overall, I found this project to be really fun and I learned a lot.  If you have any inquiries about me or my project I welcome you to contact me at mitchelltmarino@gmail.com!
