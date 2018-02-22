@@ -1,6 +1,6 @@
 # Directions-Generator
 
-Hello, and thank you for checking out my Directions-Generator application! This program can be used to obtain dynamically generated, shortest-path directions between any two locations entered into the application's GUI! The application's The GUI provides comfortable, dynamic resizing.
+Hello, and thank you for checking out my Directions Generator application! This program can be used to obtain dynamically generated, shortest-path directions between any two locations entered into the application's GUI! The application's The GUI provides comfortable, dynamic resizing.
 
 All data is pulled from the Open Street Map (OSM) open source database using the OSMNX API. Discover more about the Open Street Map project at these locations:
 
