@@ -3,7 +3,9 @@
 Hello, and thank you for checking out my Directions-Generator application! This program can be used to obtain dynamically generated, shortest-path directions between any two locations entered into the application's GUI! The application's The GUI provides comfortable, dynamic resizing.
 
 All data is pulled from the Open Street Map (OSM) open source database using the OSMNX API. Discover more about the Open Street Map project at these locations:
+
 • https://en.wikipedia.org/wiki/OpenStreetMap
+
 • https://www.openstreetmap.org
 
 ## Program Functionality
@@ -57,7 +59,7 @@ Explains how to use the program as intended, and also goes into moderate depth e
 
 * **Djikstra's Aglorithm**
 	* If the two paths are found to be connected by DFS, then Djikstra's algorithm is used to calculate the absolute shortest path.
-	* I used Python's native heapqueue implementation in my Djikstra's algorithm for a time complexity of O(|E|+|V| log |V|).
+	* I used Python's native heapqueue implementation in my Djikstra's algorithm for a time complexity of O(|E|+|V|log|V|).
 
 * **Directions Generation**
 	* **Polar direction determination (North/South/East/West)**
