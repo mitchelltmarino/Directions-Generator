@@ -16,7 +16,7 @@ All data is pulled from the Open Street Map (OSM) open source database using the
 	* Intersections are equivalent to vertices.
 	* Streets are equivalent to edges (and edge weights are street lengths).
 * Uses Depth First Search to verify connectivity between the start and destination locations.
-* Uses Djikstra's Algorithm to determine the absolute shortest path between the start and destination locations.
+* Uses Dijkstra's Algorithm to determine the absolute shortest path between the start and destination locations.
 * Uses algorithms and logic to determine the direction of a street, as well as the direction that you must turn to reach that street.
 * Dynamically builds sentences using an array of randomly selected sub-templates. 
 
@@ -57,9 +57,9 @@ Explains how to use the program as intended, and also goes into moderate depth e
 		* Address2 --> 22 Avenue Jacques Cartier, Blanc-Sablon, Quebec
 	* If you try searching the above two addresses using the application, then the program will inform you that there is no path between them. The reason that these two addresses are not connected because they are separated by a body of water (the Gulf of St. Lawrence) in Eastern Canada. They are on different masses of land.
 
-* **Djikstra's Aglorithm**
-	* If the two paths are found to be connected by DFS, then Djikstra's algorithm is used to calculate the absolute shortest path.
-	* I used Python's native heapqueue implementation in my Djikstra's algorithm for a time complexity of O(|E|+|V|log|V|).
+* **Dijkstra's Aglorithm**
+	* If the two paths are found to be connected by DFS, then Dijkstra's algorithm is used to calculate the absolute shortest path.
+	* I used Python's native heapqueue implementation in my Dijkstra's algorithm for a time complexity of O(|E|+|V|log|V|).
 
 * **Directions Generation**
 	* **Polar direction determination (North/South/East/West)**
